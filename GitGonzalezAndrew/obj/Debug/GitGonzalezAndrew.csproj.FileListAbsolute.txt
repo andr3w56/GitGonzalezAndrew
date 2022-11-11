@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\obj\Debug\GitGonzalezAndrew.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\obj\Debug\GitGonzalezAndrew.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\obj\Debug\GitGonzalezAndrew.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\bin\Debug\GitGonzalezAndrew.exe.config
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\bin\Debug\GitGonzalezAndrew.exe
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\bin\Debug\GitGonzalezAndrew.pdb
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\obj\Debug\GitGonzalezAndrew.exe
+C:\Users\Administrator\Source\Repos\andr3w56\GitGonzalezAndrew\GitGonzalezAndrew\obj\Debug\GitGonzalezAndrew.pdb

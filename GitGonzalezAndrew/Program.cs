@@ -90,11 +90,11 @@ namespace GitGonzalezAndrew
             Console.WriteLine("\n# Múltiples Numeros Aleatorios");
 
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1, 7); // Utilizamos una seed para que no se repitan.
+            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1,11); // Utilizamos una seed para que no se repitan.
             var a1 = aleatorio; // Guardamos el número aleatorio 1 en una variable.
             Console.WriteLine($"\nPrimer número aleatorio: {aleatorio}\n");
 
-            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1, 7);
+            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1, 11);
             var a2 = aleatorio; // Guardamos el número aleatorio 2 en otra variable.
             Console.WriteLine($"Segundo número aleatorio: {aleatorio}\n");
 

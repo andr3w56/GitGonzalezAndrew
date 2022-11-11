@@ -17,7 +17,7 @@ namespace GitGonzalezAndrew
              * 
              */
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Datos Informativos\n");
+            Console.WriteLine("# Datos Informativos\n");
 
             const string apellidos = "González Castillo";
             const string nombres = "Andrew Fernando";
@@ -39,7 +39,7 @@ namespace GitGonzalezAndrew
              * 
              */
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nNúmero Aleatorio\n");
+            Console.WriteLine("\n# Número Aleatorio");
 
             Random rnd = new Random(Guid.NewGuid().GetHashCode());
             var aleatorio = rnd.Next(1, 8);
@@ -63,16 +63,16 @@ namespace GitGonzalezAndrew
              * 
              */
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nOperador NOT\n");
+            Console.WriteLine("\n# Operador NOT");
 
             aleatorio = new Random().Next(1, 101);
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine($"\nEl número aleatorio es: {aleatorio}");
 
             if (!(aleatorio >= 18 && aleatorio <= 50))
             {
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine("Esta población NO es económicamente activa.");
             }
             else

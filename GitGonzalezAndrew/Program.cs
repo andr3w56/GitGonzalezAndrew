@@ -39,10 +39,10 @@ namespace GitGonzalezAndrew
              * 
              */
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Número Aleatorio\n");
+            Console.WriteLine("\nNúmero Aleatorio\n");
 
-            Random rnd = new Random();
-            int aleatorio = rnd.Next(1, 8);
+            Random rnd = new Random(Guid.NewGuid().GetHashCode());
+            var aleatorio = rnd.Next(1, 8);
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"\nEl número aleatorio es: {aleatorio}");
@@ -56,6 +56,29 @@ namespace GitGonzalezAndrew
                 {
                     Console.WriteLine(diasSemanales[i - 1]);
                 }
+            }
+            /*
+             * 
+             * Operador NOT
+             * 
+             */
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nOperador NOT\n");
+
+            aleatorio = new Random().Next(1, 101);
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\nEl número aleatorio es: {aleatorio}");
+
+            if (!(aleatorio >= 18 && aleatorio <= 50))
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine("Esta población NO es económicamente activa.");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("Esta población es trabajadora.");
             }
 
             Console.ReadKey();

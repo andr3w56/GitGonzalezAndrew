@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -79,6 +80,32 @@ namespace GitGonzalezAndrew
             {
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("Esta población es trabajadora.");
+            }
+            /*
+             * 
+             * 2 Numeros aleatorios.
+             * 
+             */
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\n# Múltiples Numeros Aleatorios");
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1,11); // Utilizamos una seed para que no se repitan.
+            var a1 = aleatorio; // Guardamos el número aleatorio 1 en una variable.
+            Console.WriteLine($"\nPrimer número aleatorio: {aleatorio}\n");
+
+            aleatorio = new Random(Guid.NewGuid().GetHashCode()).Next(1, 11);
+            var a2 = aleatorio; // Guardamos el número aleatorio 2 en otra variable.
+            Console.WriteLine($"Segundo número aleatorio: {aleatorio}\n");
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            if (a1 + a2 <= 4 || a1 + a2 == 12)
+            {
+                Console.WriteLine("Ganaste el premio sorpresa de la trivia");
+            }
+            else
+            {
+                Console.WriteLine("Sigue intentando");
             }
 
             Console.ReadKey();
